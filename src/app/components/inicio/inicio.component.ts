@@ -41,14 +41,14 @@ export class InicioComponent implements OnInit {
    eventos:any
   constructor(private db: ConexionesService, private router: Router, config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
-    config.interval = 5000;
+    config.interval = 2000;
     config.keyboard = true;
     config.pauseOnHover = true;
-    this.images[0] = 'assets/img/nldverde.png';
-    this.images[1] = 'assets/img/energia.jpg';
-    this.images[2] = 'assets/img/basurero.jpg';
-    this.images[3] = 'assets/img/plastico.jpg';
-
+    this.images[0] = 'assets/img/slide4.jpg';
+    this.images[1] = 'assets/img/slide2.jpg';
+    this.images[2] = 'assets/img/slide3.jpg';
+    this.images[3] = 'assets/img/slide1.jpg';
+    //this.images[4] = 'assets/img/slide4.jpg';
 
     this.imagesAcopio[0] = 'assets/img/acopio/acopio0.jpg';
     this.imagesAcopio[1] = 'assets/img/acopio/acopio1.jpg';
