@@ -1,0 +1,28 @@
+.wrap {
+    display: block;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 10px 20px -3px rgb(138 17 17 / 54%);
+    margin-bottom: 20px;
+}
+
+.wrap:hover {
+    background: linear-gradient(135deg,#d81b24 0%,#a8123d 100%);
+    color: white;
+    cursor: pointer;
+}
+p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+}
+.block-title {
+    margin: 0 0 15px 0;
+    letter-spacing: inherit;
+    line-height: 0.7;
+}
+.tamano{
+    font-size: large;
+    
+}

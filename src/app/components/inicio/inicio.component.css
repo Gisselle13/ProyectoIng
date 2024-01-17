@@ -1,0 +1,114 @@
+ngb-carousel .wrapper {
+    position: relative;
+    height: 0;
+    padding-top: 73%;
+    /* Keep ratio for 900x500 images */
+}
+
+ngb-carousel .wrapper2 {
+    position: relative;
+    height: 0;
+    padding-top: 55%;
+    /* Keep ratio for 900x500 images */
+}
+
+ngb-carousel .wrapper2>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+ngb-carousel .wrapper>img {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.inicio {
+    /* background-image: url('../../../assets/img/fondo2.jpg'); */
+    background-size: cover;
+}
+
+header {
+    background-image: url('../../../assets/img/header.jpg');
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.header1 {
+    font-weight: bold;
+}
+
+
+/* .header1 :hover {
+    background-color: #57BC37;
+} */
+
+.btn1 {
+    background-color: #095204;
+    width: 100%;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* .btn1:hover {
+    background-color: #57BC37;
+} */
+
+.btn2 {
+    background-color: #64c27b;
+    width: 100%;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: #9E2342;
+    transition: transform 500ms;
+    transform: translateY(-10px);
+}
+
+.myBox {
+    padding: 5px;
+    background-color: white;
+    /* font: 24px/36px sans-serif; */
+    width: auto;
+    height: 500px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.frame {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    height: 700px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    color: #095204;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 30px;
+}

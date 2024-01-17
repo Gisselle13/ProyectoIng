@@ -1,0 +1,10 @@
+.inicio {
+    /* background-image: url('../../../assets/img/fondo2.jpg'); */
+    background-size: cover;
+    color: Black;
+}
+
+.gallery__container {
+    max-width: 118rem;
+    margin: 0 auto;
+}

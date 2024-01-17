@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Satisfy';
+    src: url('../fonts/Satisfy-Regular.ttf'); 
+    font-weight: 400;
+    font-style: Regular;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Light.ttf'); 
+    font-weight: 400;
+    font-style: Regular;
+}
+@font-face {
+    font-family: 'Fasthand';
+    src: url('../fonts/Fasthand-Regular.ttf'); 
+    font-weight: 400;
+    font-style: Regular;
+}
+
+
+body{
+    background-color: #f8f9fa;
+}
+
+.fuenteMenu{
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+.fuenteVisit{
+    font-family: 'Satisfy', cursive;
+}
+.colorWhite{
+        color:white
+}
+.colorDark{
+    color:#46484a;
+}
+.backDorado{
+ /*   background: #BB955E;*/
+ background: #9E2342;
+}
+.colorDorado{
+    color: #8b7049fc;
+}
+.colorDoradoClaro{
+    color: #BB955E;
+}
+
+.redes{
+    font-size: xx-large;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+        .fuenteTitulo {
+            font-family: 'Fasthand', cursive;
+            font-size: 60px;
+            color: #46484a;
+        }
+        .paisano{
+            padding-left: 0%;padding-top: 10%;
+        }
+        
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+   .fuenteTitulo {
+        font-family: 'Fasthand', cursive;
+        font-size: 60px;
+        color: #46484a;
+    }
+    .paisano{
+            padding-left: 0%;padding-top: 10%;
+    }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   .fuenteTitulo {
+        font-family: 'Fasthand', cursive;
+        font-size: 70px;
+        color: #46484a;
+    }
+    .paisano{
+            padding-left: 10%;padding-top: 10%;
+        }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .fuenteTitulo {
+        font-family: 'Fasthand', cursive;
+        font-size: 80px;
+        color: #46484a;
+    }
+    .paisano{
+            padding-left: 10%;padding-top: 10%;
+        }
+
+}
+
+@media (min-width: 1281px) {
+        .fuenteTitulo {
+            font-family: 'Fasthand', cursive;
+            font-size: 100px;
+            color: #46484a;
+        }
+        .paisano{
+            padding-left: 20%;padding-top: 10%;
+            max-width: 500px;
+        }
+}
