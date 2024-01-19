@@ -26,3 +26,13 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #095204;
 }
+
+::ng-deep.mat-menu-panel {
+    max-width: none !important;
+    margin-top: -100px;
+}
+
+.mat-menu-item {
+    color: blue !important;
+    position: relative;
+}

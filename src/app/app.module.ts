@@ -25,6 +25,9 @@ import { AgendaRecoleccionComponent } from './components/agenda-recoleccion/agen
 import { EventosComponent } from './components/eventos/eventos.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { EducacionAmbientalComponent } from './components/educacion-ambiental/educacion-ambiental.component';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,11 +54,17 @@ import { EducacionAmbientalComponent } from './components/educacion-ambiental/ed
     SlickCarouselModule,
     FlexLayoutModule,
     MatTabsModule,
+    MatMenuModule,
+    MatButtonModule,
+    
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBXIsQqLFWjOwIygW2ZaNyaUvg4xcXRnSM',
       libraries: ['places']
     })
     
+  ],
+  exports:[
+    MatMenuModule, BrowserAnimationsModule, MatButtonModule
   ],
   providers: [NgbCarouselConfig],
   bootstrap: [AppComponent]
